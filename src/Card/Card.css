@@ -1,0 +1,24 @@
+.Card {
+  max-width: 600px;
+  background-color: #F2F2F2;
+  padding: 40px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.Line {
+  background-color: #F2C94C;
+  height: 10px;
+  margin-top: 27px;
+  margin-bottom: 27px;
+  border-radius: 10px;
+}
+
+.Email {
+  margin-top: 100px;
+
+}
+
+u {
+  text-decoration-color: #F2C94C;
+}
