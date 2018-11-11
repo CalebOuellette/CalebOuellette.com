@@ -22,6 +22,12 @@ class Card extends Component {
         <div className="Email">
           Email: <u> Caleb.Ouellette@gmail.com </u>
         </div>
+        <br></br>
+        <div className="Links">
+          <a href="https://github.com/CalebOuellette" >Github</a>
+          <a href="https://www.linkedin.com/in/caleb-ouellette/" >LinkedIn</a>
+          <a href="https://codepen.io/CalebOuellette/" >CodePen</a>
+        </div>
       </div>
     );
   }

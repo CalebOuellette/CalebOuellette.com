@@ -22,3 +22,26 @@
 u {
   text-decoration-color: #F2C94C;
 }
+
+a {
+  text-decoration-color: #F2C94C;
+  margin-right: 10px;
+  display: inline;
+  font-size: 15pt;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: #777777;
+}
+
+
+
+.Links {}
