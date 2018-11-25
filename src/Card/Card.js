@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DarkMode from '../DarkMode/DarkMode';
 import './Card.css';
 
 class Card extends Component {
@@ -28,6 +29,7 @@ class Card extends Component {
           <a href="https://www.linkedin.com/in/caleb-ouellette/" >LinkedIn</a>
           <a href="https://codepen.io/CalebOuellette/" >CodePen</a>
         </div>
+        <DarkMode />
       </div>
     );
   }
