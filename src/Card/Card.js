@@ -29,7 +29,7 @@ class Card extends Component {
           <a href="https://www.linkedin.com/in/caleb-ouellette/" >LinkedIn</a>
           <a href="https://codepen.io/CalebOuellette/" >CodePen</a>
         </div>
-        <DarkMode />
+        <DarkMode darkMode={this.props.darkMode} changeDarkMode={this.props.changeDarkMode} />
       </div>
     );
   }

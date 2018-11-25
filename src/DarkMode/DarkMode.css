@@ -1,0 +1,36 @@
+.outerSwitch{
+  width: 45px;
+  background-color: #F2C94C;
+  border-radius: 14px;
+  padding: 2px;
+  display: block;
+  position: relative;
+  margin-right: 20px;
+  bottom: 0px;
+}
+
+.innerSwitch{
+  width: 28px;
+  height: 22px;
+  background-color: #F2F2f2;
+  border-radius: 14px;
+  position: relative;
+  transition-timing-function: linear;
+  transition-duration:.1s;
+  transition-property: left;
+  left: 0px;
+  
+}
+
+.on{
+  left: 17px;
+}
+
+.darkModeText {
+  display: inline-block;
+  font-size: 20px;
+  position: relative;
+}
+.DarkMode{
+  margin-top: 30px;
+}
