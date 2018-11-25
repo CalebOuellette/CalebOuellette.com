@@ -1,6 +1,5 @@
 .Card {
   max-width: 600px;
-  background-color: #F2F2F2;
   padding: 40px;
   border-radius: 20px;
   margin: auto;
@@ -31,11 +30,20 @@ a {
 }
 
 a:visited {
-  color: black;
+  color: #333333;
 }
 
+.darkmode a:visited {
+  color: #f2f2f2;
+}
+
+.darkmode a:link {
+  color: #f2f2f2;
+}
+
+
 a:link {
-  color: black;
+  color: #333333;
 }
 
 a:hover {
