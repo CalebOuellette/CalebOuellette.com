@@ -9,10 +9,22 @@ class App extends Component {
     darkmode: false,
   }
 
+  componentDidMount(){
+    this.detectDarkMode();
+  }
+
   toggle = ()=>{
     this.setState({
       darkmode: !this.state.darkmode,
     })
+  }
+
+  detectDarkMode = ()=>{
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      this.setState({
+        darkmode: true,
+      });
+    }
   }
   
   render() {
