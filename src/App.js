@@ -16,7 +16,7 @@ class App extends Component {
   toggle = ()=>{
     this.setState({
       darkmode: !this.state.darkmode,
-    })
+    });
   }
 
   detectDarkMode = ()=>{
