@@ -16,9 +16,9 @@ class Card extends Component {
         <h1> Caleb <br /> Ouellette</h1>
         <div className="Line" />
         <p>
-          Hi! I’m a software developer. I like hard problems and good coffee.
-          I am on track to graduate with my bachelor's degree in computer science in june of 2019.
-          I'm looking to start work then.
+          Hi! I’ m a software developer. I love to build large scale apps in React and Angular.
+          I have also worked on LLVM compilers and deep learning projects.
+          I excel at working with a team.
         </p>
         <div className="Email">
           Email: <u> Caleb.Ouellette@gmail.com </u>
